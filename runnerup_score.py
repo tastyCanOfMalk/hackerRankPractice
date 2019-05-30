@@ -15,3 +15,4 @@ x = list(set(map(int, input().split())))
 x.sort()
 if 2 <= n <= 10 and all(-100 <= i <= 100 for i in x):
     print(x[-2])
+    
