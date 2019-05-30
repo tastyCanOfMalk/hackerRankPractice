@@ -6,14 +6,14 @@ n = int(input())
 arr = [[0 for _ in range(2)] for _ in range(n)]
 
 # test inputs
-# arr[0][0]= "rachel"
-# arr[0][1]= -50
-# arr[1][0]= "mawer"
-# arr[1][1]= -50
-# arr[2][0]= "sheen"
-# arr[2][1]= -50
-# arr[3][0]= "shaheen "
-# arr[3][1]= 51
+# arr[0][0]= "sona"
+# arr[0][1]= -25.001
+# arr[1][0]= "mona"
+# arr[1][1]= -25.0001
+# arr[2][0]= "mini"
+# arr[2][1]= -25.000
+# arr[3][0]= "rita "
+# arr[3][1]= -25.0
 # arr[4][0]= "Vikas"
 # arr[4][1]= 21
 
@@ -39,7 +39,6 @@ for x in range(len(arr)):
   
 for y in range(len(removes)):
     arr.remove(arr[removes[0]])
-
 
 # store second min, then remove it
 min2 = arr[0]
