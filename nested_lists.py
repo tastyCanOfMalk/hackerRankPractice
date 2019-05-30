@@ -2,18 +2,18 @@
 
 # get n, create empty list
 n = int(input())
-# n=5
+# n=4
 arr = [[0 for _ in range(2)] for _ in range(n)]
 
 # test inputs
-# arr[0][0]= "Harsh"
-# arr[0][1]= 20
-# arr[1][0]= "Beria"
-# arr[1][1]= 20
-# arr[2][0]= "Varun"
-# arr[2][1]= 19
-# arr[3][0]= "Kakunami"
-# arr[3][1]= 19
+# arr[0][0]= "rachel"
+# arr[0][1]= -50
+# arr[1][0]= "mawer"
+# arr[1][1]= -50
+# arr[2][0]= "sheen"
+# arr[2][1]= -50
+# arr[3][0]= "shaheen "
+# arr[3][1]= 51
 # arr[4][0]= "Vikas"
 # arr[4][1]= 21
 
@@ -38,7 +38,7 @@ for x in range(len(arr)):
         removes.append(x)
   
 for y in range(len(removes)):
-    arr.remove(arr[removes[y]])
+    arr.remove(arr[removes[0]])
 
 
 # store second min, then remove it
