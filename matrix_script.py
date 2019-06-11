@@ -1,9 +1,9 @@
 # https://www.hackerrank.com/challenges/matrix-script/problem
 
-# # get dimensions
+# get dimensions
 n, m = map(int, input().split())
 
-# # create empty array
+# create empty array
 arr = [[0 for _ in range(m)] for _ in range(n)]
 
 # get matrix code
