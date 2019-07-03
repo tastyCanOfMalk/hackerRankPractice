@@ -1,4 +1,4 @@
-https://www.hackerrank.com/challenges/designer-door-mat
+# https://www.hackerrank.com/challenges/designer-door-mat
 
 n,m = map(int, input().split())
 
